@@ -5,7 +5,7 @@ These files were used to create an "EL" patch.
 The final `png` used is `png/3cat-hart-se-outline.png`.
 
 The `GIMP` file is provided in `gimp/3cat-hart.xcf`.
-My computer crasehd while playing with the source file
+My computer crashed while playing with the source file
 so the original `xcf` was lost.
 The intermediate `png`s were saved and that's what's
 present in the `xcf` file.
@@ -55,7 +55,7 @@ Invert the selection or the black will be etched instead of the white.
 The EL panel can be cut down but it's nicer, and easier, to use the
 whole EL panel if possible.
 Shifting is for my machine to make sure it's far enough away from the edge
-so it's not etching the laser cutter armiture and triggering the limit
+so it's not etching the laser cutter armature and triggering the limit
 switches.
 
 `LaserWeb4` can be a bit clunky to use but it's by far the simplest, most
@@ -88,7 +88,7 @@ I'm using a K-40 (40W) "Chinese" laser cutter outfitted with a smoothieboard.
 Misc.
 ---
 
-* Since the raster is directional, the egdges of the square might cut better in
+* Since the raster is directional, the edges of the square might cut better in
   one direction than the other.  For example, they might cut cleanly horizontally
   but not vertically.  This is why the choice of 10 pixels came in as the previous
   iteration only had 5 pixels and turned out to not cut cleanly.
@@ -96,18 +96,18 @@ Misc.
   'patch' on.
 * I don't know if it's the best for this purpose, but I'm using G-S HYPO CEMENT
   with a G-S PRECISION APPLICATOR ([amazon link?](https://www.amazon.com/Precision-Applicator-Adhesive-Detailed-Findings/dp/B00C7PA7UY)).  The small applicator is good at getting the
-  glue inbetween fine detail.
+  glue in between fine detail.
 * I use 'dots' of glue around instead of trying to 'smear' it.
 * Get close to the edge or else it will 'flap'.
 * Use black tape to cover up the top tab if it's still visible.
-* You can push the patch around on the EL panel a little to do fine adjsutment
+* You can push the patch around on the EL panel a little to do fine adjustment
   while the glue is still wet.
 * I believe I used heavy duty Nylon ([amazon link?](https://www.amazon.com/gp/product/B002C6DAXE)).
   It feels pretty durable and doesn't disintegrate when a bunch of holes.
   It does melt but if the laser is set right, it's not too bad and the melting on the edges
   can even be a benefit.
   Part of the cloth is shiny but often the patches will be seen
-  in low light conditions so it shouldnt' be much of an issue.
+  in low light conditions so it shouldn't' be much of an issue.
   The solid portions of the fabric completely block out the light from the panel underneath.
 * Nylon is on the list of acceptable laser cuttable materials from
   [Pololu's "Materials for Laser Cutting](https://www.pololu.com/docs/0J24/3) page.
@@ -116,9 +116,9 @@ Inspiration
 ---
 
 The original art for the cat falls under the public domain and is taken
-from Wikipidea.
+from Wikipedia.
 The original art is an advertisement for "Black Cat Cigarettes" which has since been
-bought out and decomissioned.
+bought out and decommissioned.
 
 The "three eyed cat" is a well established idea on the internet by now.
 
@@ -128,12 +128,12 @@ but was otherwise draw "freehand" in GIMP by me.
 References
 ---
 
-* [Black Cat Virginia Ciagarettes, Extra Mild-Quality Superfine (yellow)](https://commons.wikimedia.org/wiki/File:Black_Cat,_Verginia_cigarettes_pack,_pic1.JPG) (CC0)
-* [Black Cat Virginia Ciagarettes, Extra Mild-Quality Superfine (blue)](https://commons.wikimedia.org/wiki/File:Black_Cat_-_Extra_Mild_cigarettes_pack,_pic1.JPG) (CC0)
+* [Black Cat Virginia Cigarettes, Extra Mild-Quality Superfine (yellow)](https://commons.wikimedia.org/wiki/File:Black_Cat,_Verginia_cigarettes_pack,_pic1.JPG) (CC0)
+* [Black Cat Virginia Cigarettes, Extra Mild-Quality Superfine (blue)](https://commons.wikimedia.org/wiki/File:Black_Cat_-_Extra_Mild_cigarettes_pack,_pic1.JPG) (CC0)
 * [G-S Hypo Cement Precision Applicator Adhesive Glue](https://www.amazon.com/Precision-Applicator-Adhesive-Detailed-Findings/dp/B00C7PA7UY)
 * [Heavy duty Nylon](https://www.amazon.com/gp/product/B002C6DAXE)
 
 License
 ---
 
-Everything in this directory is licensed under CC0, unless explicitely stated otherwise.
+Everything in this directory is licensed under CC0, unless explicitly stated otherwise.

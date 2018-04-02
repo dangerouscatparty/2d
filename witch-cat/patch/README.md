@@ -2,7 +2,12 @@ Cat "Patch"
 ===
 
 These files were used to create an "EL" patch.
+
+![3cat-shot](img/shot-3cat-hart.jpg)
+
 The final `png` used is `png/3cat-hart-se-outline.png`.
+
+![3cat-src-img](png/3cat-hart-se-outline.png)
 
 The `GIMP` file is provided in `gimp/3cat-hart.xcf`.
 My computer crashed while playing with the source file
@@ -38,7 +43,7 @@ to convert the `png` to `GCode`.
 The parameters I used were
 
 * laser "power" to `25` (out of `100`)
-* speed set to 3000 (presumably 3000mm per minute)
+* speed set to `3000` (presumably 3000mm per minute)
 * do not etch white pixels
 * invert selection
 * scale the image to be around 110mm by 110mm, the size of the
@@ -123,7 +128,7 @@ bought out and decommissioned.
 The "three eyed cat" is a well established idea on the internet by now.
 
 The heart shape was influenced by doing a Google search on "minimalist geometric heart"
-but was otherwise draw "freehand" in GIMP by me.
+but was otherwise draw "freehand" in GIMP by [abetusk].
 
 References
 ---

@@ -142,3 +142,5 @@ License
 ---
 
 Everything in this directory is licensed under CC0, unless explicitly stated otherwise.
+
+![cc0](/img/cc/thin/cc-zero.svg)

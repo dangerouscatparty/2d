@@ -1,0 +1,56 @@
+
+GRECODE can modify GCODE for machining operations.
+It is licensed under the GNU Public License.
+
+Usage:
+ grecode <operation [optional value]>  [-o output_gcode.ngc]
+  [ input_gcode.ngc]  [-g output.gnuplot]
+
+Operations:
+-xflip, -yflip,-xyexchange
+ just replace the x-y coordinates.
+-cw,-ccw
+ clockwise or counter-clockwise rotation by 90 degree.
+-rot <angle>
+ Counter-clockwise Rotation by free angle in degree.
+ Expressions are not allowed
+-scale <factor>
+ Scales the geometry by a factor.
+-shift <xshift> <yshift>
+ Moves into +x +y by the values in mm.
+-align <alignx> <alingy>
+ calculates the bounding box by g1 and g0 moves. Arcs are ignored.
+ alignments are min,middle,max for the G1 and G0total bounding box.
+ alignments are cmin,cmiddle,cmax for the G1 bounding box.
+  Also 'keep' is valid for no shift.
+-killn
+ removes all N Statements
+-parameterize <minoccurence> <variables Startnumber>
+ This will scan for re-occuring values in X, Y and Z words.
+ If the occure more often than minoccurence,
+  they will be substituted by variables.
+ Their numbers are starting from the specified number
+-overlay <X PointA> <Y PointA> <X PointB> <Y PointB>
+        <X NewPointA> <Y NewPointA> <X NewPointB> <Y NewPointB>
+ This will shift and rotate the the gcode,
+ so that PointA and PointB move to the new locations.
+ Distance mismatches beweeen A-B and newA-newB are compensated.
+-knive <delay mm>
+ This should compensate partially for foil cutters,
+ where the cutting point is lagging.
+ The lagging distance should be specified.
+ Arc movements could be problematic currently.
+-copies <number x=n> <number y=m> <shiftx> <shifty>
+ Creates multiple copies of the original code.
+ They are aligned in an n times m grid.
+-comment <character type><text> 
+ Comments out words: -comment M03: M03->(M03)
+-zxtilt <angle>  or -zytilt <angle>
+ shear-transform z values so that the x-y area is tiltet do the angle
+
+Input/Output:
+ The program reads input from the console and outputs to the console
+ If an input file is specified by -i, it is read instead.
+ If an output file is specified by -o, the output is written there.
+ A gnuplot-readable output file can be specified by -g.
+ It can be viewed by gnuplot: splot "output.gnuplot" u 1:2:3:4 w lp palette

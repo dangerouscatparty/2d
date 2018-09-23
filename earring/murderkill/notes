@@ -1,0 +1,44 @@
+modified from:
+
+https://fontlibrary.org/en/font/some-time-later
+
+(License OFL (SIL Open Font License))
+
+Some Time Later was added by Fredrick Brennan
+
+2.75 x 3 and 3 x 2 inches
+
+---
+
+* Convert the text to path
+* Outset twice
+* Do a path union
+* Duplicate 3x (two more times) and position them
+* Union on the resulting outer edge
+* Clean up middle (delete small islands)
+* Position original text converting each character to path
+* Do a pairwise difference from the background offset to the individual character
+* Create a circle, convert path and do a union
+* Create a smaller circle inside and do a path difference
+* Import from laserweb (it says it has minor issues but it doesn't seem to make a difference?)
+* Export to GCode
+
+
+---
+
+so about 70mm side (for murder)?
+
+* 70mm x size for `murder2.svg` and `murder2-outline.svg`
+* 60mm y size for `kill2.svg` and `kill2-outline.svg`
+
+a bit too small, now doing 80mm wide for murder and 70mm for kill?
+
+
+---
+
+`laserweb` is having problems ordering the cut.
+To get around it, I've used a chain of programs packaged in
+`prep-mk.sh` to create a file with `-x.ngc` extension with
+the proper ordering.
+This makes some assumptions (decimal units, how the laser power is
+specified, etc.) so it's only good for this purpose.

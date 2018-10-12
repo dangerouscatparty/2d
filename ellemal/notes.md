@@ -61,3 +61,4 @@ References
 * [Choix des plus belles fleurs : et des plus beaux fruits /par P.J. Redouté.](https://archive.org/details/mobot31753000795820/page/87)
 * [Our new guide to rose culture : 1891. at BHL](https://www.biodiversitylibrary.org/page/43875622#page/80/mode/1up)
 
+* [Fables for the female sex](https://archive.org/details/fablesforfemales00moor/page/n41)

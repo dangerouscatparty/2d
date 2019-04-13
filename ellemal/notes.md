@@ -16,6 +16,7 @@ Sayings
 * shit (el wire)
 * There's a voice in my head that says I'm better off dead
 * Too late to die young
+* Bad luck (with good luck cat image)
 
 
 References
